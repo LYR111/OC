@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71D1D65821FF27E1002C272D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D65721FF27E1002C272D /* AppDelegate.swift */; };
+		71D1D65A21FF27E1002C272D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D65921FF27E1002C272D /* ViewController.swift */; };
+		71D1D65D21FF27E1002C272D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D1D65B21FF27E1002C272D /* Main.storyboard */; };
+		71D1D65F21FF27E3002C272D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D1D65E21FF27E3002C272D /* Assets.xcassets */; };
+		71D1D66221FF27E3002C272D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D1D66021FF27E3002C272D /* LaunchScreen.storyboard */; };
+		71D1D66D21FF27E3002C272D /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D66C21FF27E3002C272D /* ____Tests.swift */; };
+		71D1D67821FF27E3002C272D /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D67721FF27E3002C272D /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71D1D66921FF27E3002C272D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71D1D64C21FF27E1002C272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D1D65321FF27E1002C272D;
+			remoteInfo = "猜数游戏";
+		};
+		71D1D67421FF27E3002C272D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71D1D64C21FF27E1002C272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D1D65321FF27E1002C272D;
+			remoteInfo = "猜数游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71D1D65421FF27E1002C272D /* 猜数游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猜数游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D1D65721FF27E1002C272D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71D1D65921FF27E1002C272D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71D1D65C21FF27E1002C272D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71D1D65E21FF27E3002C272D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D1D66121FF27E3002C272D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71D1D66321FF27E3002C272D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D1D66821FF27E3002C272D /* 猜数游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "猜数游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D1D66C21FF27E3002C272D /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		71D1D66E21FF27E3002C272D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D1D67321FF27E3002C272D /* 猜数游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "猜数游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D1D67721FF27E3002C272D /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		71D1D67921FF27E3002C272D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D1D65121FF27E1002C272D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D66521FF27E3002C272D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D67021FF27E3002C272D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D1D64B21FF27E1002C272D = {
+			isa = PBXGroup;
+			children = (
+				71D1D65621FF27E1002C272D /* 猜数游戏 */,
+				71D1D66B21FF27E3002C272D /* 猜数游戏Tests */,
+				71D1D67621FF27E3002C272D /* 猜数游戏UITests */,
+				71D1D65521FF27E1002C272D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71D1D65521FF27E1002C272D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D1D65421FF27E1002C272D /* 猜数游戏.app */,
+				71D1D66821FF27E3002C272D /* 猜数游戏Tests.xctest */,
+				71D1D67321FF27E3002C272D /* 猜数游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D1D65621FF27E1002C272D /* 猜数游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				71D1D65721FF27E1002C272D /* AppDelegate.swift */,
+				71D1D65921FF27E1002C272D /* ViewController.swift */,
+				71D1D65B21FF27E1002C272D /* Main.storyboard */,
+				71D1D65E21FF27E3002C272D /* Assets.xcassets */,
+				71D1D66021FF27E3002C272D /* LaunchScreen.storyboard */,
+				71D1D66321FF27E3002C272D /* Info.plist */,
+			);
+			path = "猜数游戏";
+			sourceTree = "<group>";
+		};
+		71D1D66B21FF27E3002C272D /* 猜数游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71D1D66C21FF27E3002C272D /* ____Tests.swift */,
+				71D1D66E21FF27E3002C272D /* Info.plist */,
+			);
+			path = "猜数游戏Tests";
+			sourceTree = "<group>";
+		};
+		71D1D67621FF27E3002C272D /* 猜数游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				71D1D67721FF27E3002C272D /* ____UITests.swift */,
+				71D1D67921FF27E3002C272D /* Info.plist */,
+			);
+			path = "猜数游戏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D1D65321FF27E1002C272D /* 猜数游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D1D67C21FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏" */;
+			buildPhases = (
+				71D1D65021FF27E1002C272D /* Sources */,
+				71D1D65121FF27E1002C272D /* Frameworks */,
+				71D1D65221FF27E1002C272D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "猜数游戏";
+			productName = "猜数游戏";
+			productReference = 71D1D65421FF27E1002C272D /* 猜数游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71D1D66721FF27E3002C272D /* 猜数游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D1D67F21FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏Tests" */;
+			buildPhases = (
+				71D1D66421FF27E3002C272D /* Sources */,
+				71D1D66521FF27E3002C272D /* Frameworks */,
+				71D1D66621FF27E3002C272D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71D1D66A21FF27E3002C272D /* PBXTargetDependency */,
+			);
+			name = "猜数游戏Tests";
+			productName = "猜数游戏Tests";
+			productReference = 71D1D66821FF27E3002C272D /* 猜数游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71D1D67221FF27E3002C272D /* 猜数游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D1D68221FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏UITests" */;
+			buildPhases = (
+				71D1D66F21FF27E3002C272D /* Sources */,
+				71D1D67021FF27E3002C272D /* Frameworks */,
+				71D1D67121FF27E3002C272D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71D1D67521FF27E3002C272D /* PBXTargetDependency */,
+			);
+			name = "猜数游戏UITests";
+			productName = "猜数游戏UITests";
+			productReference = 71D1D67321FF27E3002C272D /* 猜数游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D1D64C21FF27E1002C272D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LIUYARU;
+				TargetAttributes = {
+					71D1D65321FF27E1002C272D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					71D1D66721FF27E3002C272D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 71D1D65321FF27E1002C272D;
+					};
+					71D1D67221FF27E3002C272D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 71D1D65321FF27E1002C272D;
+					};
+				};
+			};
+			buildConfigurationList = 71D1D64F21FF27E1002C272D /* Build configuration list for PBXProject "猜数游戏" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D1D64B21FF27E1002C272D;
+			productRefGroup = 71D1D65521FF27E1002C272D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D1D65321FF27E1002C272D /* 猜数游戏 */,
+				71D1D66721FF27E3002C272D /* 猜数游戏Tests */,
+				71D1D67221FF27E3002C272D /* 猜数游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D1D65221FF27E1002C272D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D1D66221FF27E3002C272D /* LaunchScreen.storyboard in Resources */,
+				71D1D65F21FF27E3002C272D /* Assets.xcassets in Resources */,
+				71D1D65D21FF27E1002C272D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D66621FF27E3002C272D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D67121FF27E3002C272D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D1D65021FF27E1002C272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D1D65A21FF27E1002C272D /* ViewController.swift in Sources */,
+				71D1D65821FF27E1002C272D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D66421FF27E3002C272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D1D66D21FF27E3002C272D /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D1D66F21FF27E3002C272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D1D67821FF27E3002C272D /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71D1D66A21FF27E3002C272D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71D1D65321FF27E1002C272D /* 猜数游戏 */;
+			targetProxy = 71D1D66921FF27E3002C272D /* PBXContainerItemProxy */;
+		};
+		71D1D67521FF27E3002C272D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71D1D65321FF27E1002C272D /* 猜数游戏 */;
+			targetProxy = 71D1D67421FF27E3002C272D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71D1D65B21FF27E1002C272D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D1D65C21FF27E1002C272D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71D1D66021FF27E3002C272D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D1D66121FF27E3002C272D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71D1D67A21FF27E3002C272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71D1D67B21FF27E3002C272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71D1D67D21FF27E3002C272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71D1D67E21FF27E3002C272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71D1D68021FF27E3002C272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/猜数游戏.app/猜数游戏";
+			};
+			name = Debug;
+		};
+		71D1D68121FF27E3002C272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/猜数游戏.app/猜数游戏";
+			};
+			name = Release;
+		};
+		71D1D68321FF27E3002C272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "猜数游戏";
+			};
+			name = Debug;
+		};
+		71D1D68421FF27E3002C272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "猜数游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LIUYARU.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "猜数游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D1D64F21FF27E1002C272D /* Build configuration list for PBXProject "猜数游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D1D67A21FF27E3002C272D /* Debug */,
+				71D1D67B21FF27E3002C272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D1D67C21FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D1D67D21FF27E3002C272D /* Debug */,
+				71D1D67E21FF27E3002C272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D1D67F21FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D1D68021FF27E3002C272D /* Debug */,
+				71D1D68121FF27E3002C272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D1D68221FF27E3002C272D /* Build configuration list for PBXNativeTarget "猜数游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D1D68321FF27E3002C272D /* Debug */,
+				71D1D68421FF27E3002C272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71D1D64C21FF27E1002C272D /* Project object */;
+}
